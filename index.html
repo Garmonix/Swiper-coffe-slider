@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="En">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Slider</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+<div class="container swiper">
+    <div class="card-wrapper">
+        <ul class="card-list swiper-wrapper">
+            <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                    <img src="images/americano.png" alt="americano" class="card-image">
+                    <p class="badge">150/180 ml</p>
+                    <h2 class="card-title">Americano</h2>
+                    <p class="card-text">A rich, bold espresso mixed with hot water for a smooth and robust taste, perfect for those who enjoy strong coffee.</p>
+                    <button class="card-button material-symbols-outlined">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                    <img src="images/flat-white.png" alt="flat-white" class="card-image">
+                    <p class="badge">150/180 ml</p>
+                    <h2 class="card-title">Flat-white</h2>
+                    <p class="card-text">A creamy blend of smooth espresso and velvety steamed milk, offering a balanced and refined flavor.</p>
+                    <button class="card-button material-symbols-outlined">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                    <img src="images/latte.png" alt="latte" class="card-image">
+                    <p class="badge">250/350 ml</p>
+                    <h2 class="card-title">Latte</h2>
+                    <p class="card-text">Silky steamed milk combined with a shot of espresso, topped with a light froth, delivering a gentle coffee experience.</p>
+                    <button class="card-button material-symbols-outlined">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                    <img src="images/cartoon.png" alt="cartoon" class="card-image">
+                    <p class="badge">100/200 ml</p>
+                    <h2 class="card-title">Cartoon</h2>
+                    <p class="card-text">A fun, whimsical mix of sweet syrups and espresso, bringing vibrant flavors to every sip.</p>
+                    <button class="card-button material-symbols-outlined">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                    <img src="images/forest.png" alt="forest" class="card-image">
+                    <p class="badge">210/320 ml</p>
+                    <h2 class="card-title">Forest</h2>
+                    <p class="card-text">A dark, earthy brew with a hint of herbal essence, capturing the freshness of the woods.</p>
+                    <button class="card-button material-symbols-outlined">arrow_forward</button>
+                </a>
+            </li>
+            <li class="card-item swiper-slide">
+                <a href="#" class="card-link">
+                    <img src="images/Irish.png" alt="Irish" class="card-image">
+                    <p class="badge">150/180 ml</p>
+                    <h2 class="card-title">Irish</h2>
+                    <p class="card-text"> A bold espresso infused with Irish whiskey and cream, adding warmth and a kick to your coffee.</p>
+                    <button class="card-button material-symbols-outlined">arrow_forward</button>
+                </a>
+            </li>
+        </ul>
+
+        <div class="swiper-pagination"></div>
+        <div class="swiper-side-button swiper-button-prev"></div>
+        <div class="swiper-side-button swiper-button-next"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
